@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Title of the Streamlit app
-st.title('Upload a file and convert to DataFrame')
+st.title('FIT: Upload Consolidated File and Clean Data')
 
 # File Uploader widget
 uploaded_file = st.file_uploader("Choose a file", type=['csv', 'xlsx'])
@@ -33,3 +33,5 @@ if uploaded_file is not None:
     )
 else:
     st.write("Please upload a file to display its contents here.")
+
+#https://philipmare100-flt-filtering-flow-meters-s9bi0q.streamlit.app/
